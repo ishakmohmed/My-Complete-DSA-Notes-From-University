@@ -5,7 +5,6 @@ import java.util.ListIterator;
 import java.util.Stack;
 
 public class Main {
-
     public static void main(String[] args) {
         Stack<String> stackOfPlates = new Stack<>();
 
