@@ -5,12 +5,12 @@ import java.util.Stack;
 public class Main {
 
     public static void main(String[] args) {
-	    Stack<String> stackOfCards = new Stack<>();
+    	Stack<String> stackOfCards = new Stack<>();
 
-	    stackOfCards.push("Jack");
-	    stackOfCards.push("Queen");
-	    stackOfCards.push("King");
-	    stackOfCards.push("Ace");
+    	stackOfCards.push("Jack");
+    	stackOfCards.push("Queen");
+    	stackOfCards.push("King");
+    	stackOfCards.push("Ace");
 
         System.out.println("Stack => " + stackOfCards);
         System.out.println();
