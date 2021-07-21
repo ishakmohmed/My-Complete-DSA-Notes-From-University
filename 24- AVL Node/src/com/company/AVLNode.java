@@ -2,7 +2,6 @@ package com.company;
 
 class AVLNode {
     AVLNode left, right;
-
     int data;
     int height;
 
