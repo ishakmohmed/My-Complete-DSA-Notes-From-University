@@ -33,7 +33,7 @@ class Tree {
         }
     }
 
-    public void traversePreorder(Node node) {
+    public void traversePreOrder(Node node) {
         if (node != null) {
             System.out.println(node.key);
             traversePreorder(node.left);
