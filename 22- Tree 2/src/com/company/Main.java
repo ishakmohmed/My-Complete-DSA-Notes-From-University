@@ -9,7 +9,7 @@ public class Main {
         tree.root.left.left = new Node(4);
 
         System.out.println("Preorder Traversal: ");
-        tree.traversePreorder(tree.root);
+        tree.traversePreOrder(tree.root);
 
         System.out.println("Inorder Traversal: ");
         tree.traverseInOrder(tree.root);
